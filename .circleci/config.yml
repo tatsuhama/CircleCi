@@ -87,8 +87,8 @@ jobs:
             echo "Version update was skipped."
           fi
     - store_test_results:
-        path: example/build/test-results
+        path: app/build/test-results
 
     - store_artifacts:
-        path: example/build/reports
+        path: app/build/reports
         destination: reports
